@@ -7,7 +7,7 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
-  background-color: #7EC855;
+  background-color: #5AB0D1;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -41,7 +41,7 @@ body {
 .buttons {
   position: relative;
   padding-top: 30px;
-  margin-right: 60px;
+  margin-right: 5px;
 }
 .delete-btn,
 .like-btn {
@@ -51,19 +51,19 @@ body {
 .delete-btn {
   width: 18px;
   height: 17px;
-  background: url(&quot;delete-icn.svg&quot;) no-repeat center;
+  background: url("delete-icn.svg") no-repeat center;
 }
  
 
 .image {
-  margin-right: 50px;
+  margin-right: 20px;
 }
  
-Let’s add some basic style to  product name and description.
 .description {
   padding-top: 10px;
   margin-right: 60px;
-  width: 115px;
+  margin-right: 60px;
+  width: 50px;
 }
  
 .description span {
@@ -119,6 +119,10 @@ button[class*=btn] {
   color: #43484D;
   font-weight: 300;
 }
+#totalPrice {
+	float: right;
+}
+
  
 button:focus,
 input:focus {
